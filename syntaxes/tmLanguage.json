@@ -1,0 +1,15 @@
+{
+  "scopeName": "colon.x2.marker",
+  "injectionSelector": "L:text.html.markdown",
+  "patterns": [
+    {
+      "include": "#marker"
+    }
+  ],
+  "repository": {
+    "marker": {
+      "match": "::(.*)::",
+      "name": "markup.bold.marker"
+    }
+  }
+}
